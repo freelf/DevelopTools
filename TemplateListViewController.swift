@@ -10,7 +10,8 @@ import Moya
 import Result
 class <#ClassName#><#ListView#>DataSource: TCDataSource,TCDataSourceable {
     func reusableCellIdentifier(for indexPath: IndexPath) -> String {
-        return TWComicDetailCollectionViewCell.reuseIdentifier
+        //这里返回对应 cell 的 reuseIdentifier，cell 需要遵守 TCReusableViewSupport 协议，实现对应方法。
+        return ""
     }
 }
 class <#ClassName#><#ListView#>Delegate: TCDelegate {
