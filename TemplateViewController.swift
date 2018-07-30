@@ -26,8 +26,8 @@ class <#ClassName#>ViewController: TWBaseViewController {
             switch command {
                 //解析command,比如网络请求，跳转，弹窗操作。
             }
-            //通过 state 改变 view 状态
         }
+         //通过 state 改变 view 状态
     }
     //MARK: - Private Method
     

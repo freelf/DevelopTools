@@ -47,13 +47,13 @@ class <#ClassName#>ViewController: TWBaseViewController {
             switch command {
                 //解析command,比如网络请求，跳转，弹窗操作。
             }
-            //根据 state 来改变 View 的状态，listView 需要如下调用：
-            // let sectionData = TCSectionDataMetric.init(itemsData: state.collectionItems)
-            // let globalData = TCGlobalDataMetric.init(sectionDataMetrics: [sectionData])
-            //self.dataSource.globalDataMetric = globalData
-            // self.tableView.reloadData()
-            //listView的数据就是一个二维数组，[[rowItem]]
         }
+        //根据 state 来改变 View 的状态，listView 需要如下调用：
+        // let sectionData = TCSectionDataMetric.init(itemsData: state.collectionItems)
+        // let globalData = TCGlobalDataMetric.init(sectionDataMetrics: [sectionData])
+        //self.dataSource.globalDataMetric = globalData
+        // self.tableView.reloadData()
+        //listView的数据就是一个二维数组，[[rowItem]]
     }
     //MARK: - Private Method
     
