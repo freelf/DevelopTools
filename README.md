@@ -9,3 +9,8 @@ python3 Template.py ClassName ListType // 这里需要切换到 Template.py 的�
 ## 联系方式
 使用过程中有任何问题，可以加微信交流，微信号：zdp931525538
 
+# 2017工作总结
+2017年9月28日我加入兔玩的大家庭，开始负责约玩项目iOS平台的开发。现在将工作总结如下。
+```swift
+let text = NSMutableAttributedString.init(string: "...全文")
+```
