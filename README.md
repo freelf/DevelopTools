@@ -8,9 +8,3 @@ python3 Template.py ClassName ListType // 这里需要切换到 Template.py 的�
 这个目录一个有四个文件，其中三个都是模板，另一个是一个 Python 脚本。我 Python 只看了一点点，因为看了正则和读写文件，所以想到写这样一个脚本。另外 Python 代码写的比较垃圾，大家不要嘲笑。我的想法就是把模板类弄好，然后读取模板类，通过正则替换。比如模板类里面类名我都是用<#ClassName#>，然后使用的时候，用传进来的 ClassName 替换<#ClassName#>。很简单，大家估计都可以看懂，然后根据自己的需求去改。
 ## 联系方式
 使用过程中有任何问题，可以加微信交流，微信号：zdp931525538
-
-# 2017工作总结
-2017年9月28日我加入兔玩的大家庭，开始负责约玩项目iOS平台的开发。现在将工作总结如下。
-```swift
-let text = NSMutableAttributedString.init(string: "...全文")
-```
