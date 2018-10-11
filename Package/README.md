@@ -14,5 +14,3 @@ openUrl是蒲公英对应的 dashboard 界面。
 PGYER_USER_KEY和PGYER_API_KEY是对应蒲公英账号的 key。
 5. 执行脚本
 注意：一定配置好证书，把设备设置为Generic iOS Device并且成功编译。
-## 联系方式
-使用过程中有任何问题，可以加微信交流，微信号：zdp931525538
