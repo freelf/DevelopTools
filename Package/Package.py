@@ -6,13 +6,16 @@ import webbrowser
 import subprocess
 import shutil
 
+#app所在文件夹,就是 Xcode 中 product文件夹下的.app的全路径。
 appProductFileFullPath = '/Users/zhangdongpo/Library/Developer/Xcode/DerivedData/TuWanApp-bnhlkwrmcktnephfyldhiuehhpsf/Build/Products/Debug-iphoneos/TuWanApp.app'
+#这两个路径只需要修改用户名就可以
 payLoadPath = '/Users/zhangdongpo/Desktop/Payload'
 packageBagPath = '/Users/zhangdongpo/Desktop/ProgramBag'
+#蒲公英打开的页面url
 openUrl = 'https://www.pgyer.com/manager/dashboard/app/69c8aa7b2efdbbdeae93e53ac0b9e31b'
 
 
-#蒲公英上传必要数据
+#蒲公英上传必要数据需要自行修改
 PGYER_USER_KEY = "4d1927e481e668ffe5dd27f343e6925d"
 PGYER_API_KEY = "471161a7b167f2cd8d9f996f70c47e4d"
 
